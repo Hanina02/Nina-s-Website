@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Nur Hanina Binti Johar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('wallp.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 160vh;
+      color: black;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 30px 50px 50px 50px;
+      background-color: lightgrey;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-image: url('border.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    h1 {
+      animation: zoomIn 1s ease forwards;
+      text-align: center;
+      font-family: 'Algerian', Arial, sans-serif;
+      color: #1d1f20;
+      margin-top: 1px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .info {
+      margin-top: 10px;
+    }
+
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-15px);
+      }
+      60% {
+        transform: translateY(-7px);
+      }
+    }
+
+    .footer-menu {
+      font-size: 20px;
+      animation: bounce 0s infinite;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .footer-menu a {
+      text-decoration: none;
+      color: black;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    .footer-menu a:hover {
+      color: #3498db;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>

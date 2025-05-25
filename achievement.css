@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Achievements</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('wallp.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 360vh;
+      color: black;
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin:20px auto;
+      padding: 200px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-image: url('border.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    h1 {
+      animation: zoomIn 1s ease forwards;
+      text-align: center;
+      font-family: 'Algerian';
+      color: #1d1f20;
+      margin-top: 10px;
+    }
+
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .info p {
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .footer-menu {
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .footer-menu a {
+      text-decoration: none;
+      color: black;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    .footer-menu a:hover {
+      color: #3498db;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>

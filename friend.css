@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-9">
+  <title>My Friends</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('wallp.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      color: black;
+      text-align: center;
+      padding: 20px 20px;
+    }
+
+    .nav-container {
+  width: 70%;
+  max-width: 700px;
+  margin: 20px auto;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-family: "arial", Times, serif;
+  text-align: center;
+}
+
+.footer-menu {
+  display: inline;
+  line-height: 1.8;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+
+    
+
+    .footer-menu a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .footer-menu a:hover {
+      color: #3498db;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 90px;
+      border-radius: 30px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      background-image: url('border.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: rgba(255, 255, 255, 0.9); /* fallback overlay */
+    }
+
+    h1 {
+      animation: zoomIn 1s ease forwards;
+      font-family: 'Algerian', serif;
+      color: #1d1f20;
+      margin-top: 10px;
+    }
+
+    @keyframes zoomIn {
+      0% { transform: scale(0.5); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+
+    .friend-img {
+      width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+
+    .back-home {
+      display: inline-block;
+      margin: 20px 0;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .back-home:hover {
+      color: #3498db;
+    }
+  </style>
+</head>

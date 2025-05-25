@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Nur Hanina Johar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('wallp.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      color: black;
+      text-align: center;
+    }
+
+    .nav-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 900px;
+  margin:auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+        h2 {
+      animation: zoomIn 1s ease forwards;
+      transform-origin: center;
+      opacity: 0; /* Start hidden until animation */
+    }
+
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    h2 {
+      color: #2c3e50;
+    }
+
+    .portfolio-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 10px auto;
+      padding: 10 20px;
+    }
+
+    .project-card {
+      background-color: #fff;
+      padding: 1px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .project-title {
+      font-weight: bold;
+      margin-top: 0px;
+      color: #34495e;
+    }
+
+    .project-description {
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    .footer-menu {
+      font-size: 20px;
+      animation: bounce 0s infinite;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .footer-menu a {
+      text-decoration: none;
+      color: black;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    .footer-menu a:hover {
+      color: #3498db;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-15px);
+      }
+      60% {
+        transform: translateY(-7px);
+      }
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 50px;
+      border-radius: 20px;
+      background-image: url('border.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    .back-home {
+      margin-top: 20px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+
+  <table width="67%" align="center">
+    <tr>
+      <td colspan="2" align="center" bgcolor="#D3D3D3">
+        <br>
+        <div class="footer-menu">
+          <a href="home.html">Home</a> |
+          <a href="about me.html">About Me</a> |
+          <a href="personal detail.html">Personal Details</a> |
+          <a href="curriculum.html">Curriculum</a> |
+          <a href="achievement.html">Achievement</a> |
+          <a href="portfolio.html">Portfolio</a> |
+          <a href="family.html">Family</a> |
+          <a href="friend.html">Friends</a> |
+          <a href="contact us.html">Contact Us</a>
+          <br><br>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <div class="container">
+    <h2><font face="Algerian">Portfolio</font></h2>
+    <div class="portfolio-container">
+      <div class="project-card">
+        <img src="community library outreach.jpg" alt="Community Library Outreach">
+        <div class="project-title">Community Library Outreach</div>
+        <div class="project-description">Program during Semester 4</div>
+      </div>
+      <div class="project-card">
+        <img src="kawan buku kita.jpg" alt="Kawan Buku Kita">
+        <div class="project-title">Kawan Buku Kita: Teman Bacaan Anak Kampung</div>
+        <div class="project-description">Program during Semester 5</div>
+      </div>
+    </div>
+  </div>
+
+<!-- FOOTER SECTION -->
+<a href="index.html" style="display: inline-block; background: rgb(235, 231, 231); color: rgb(15, 15, 15); padding: 10px 15px; margin: 5px; text-decoration: none;">Back to Homepage</a>
+  <a href="javascript:history.back()" style="display: inline-block; background: rgb(245, 243, 243); color: rgb(2, 2, 2); padding: 10px 15px; margin: 5px; text-decoration: none;">Back to Previous Page</a>
+</div>
+
+
+  <footer>
+    &copy; 2025 Nur Hanina Johar. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
+
+

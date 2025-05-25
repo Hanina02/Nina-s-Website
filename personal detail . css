@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Details</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #FFFFFF;
+      background-image: url('wallp.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 260vh;
+      color: black;
+      text-align: center;
+      padding-top: 10px;
+    }
+
+    .container {
+      width: 60%;
+      margin: auto;
+      padding: 80px;
+      background-color: rgba(175, 161, 161, 0.384);
+      box-shadow: 0 0 10px rgba(122, 118, 118, 0.1);
+      border-radius: 20px;
+      background-image: url('border.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      margin: 5px 0;
+      color: black;
+    }
+
+    .section .bold {
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    h1 {
+      animation: zoomIn 1s ease forwards;
+      font-family: 'Arial', sans-serif;
+      color: #1d1f20;
+      margin-top: 10px;
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-15px);
+      }
+      60% {
+        transform: translateY(-7px);
+      }
+    }
+
+    .footer-menu {
+      font-size: 20px;
+      animation: bounce 0s infinite;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .footer-menu a {
+      text-decoration: none;
+      color: black;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    .footer-menu a:hover {
+      color: #3498db;
+    }
+  </style>
+</head>
