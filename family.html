@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Family</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('wallp.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 200vh;
+      color: black;
+      text-align: center;
+      padding-top: 50px;
+      margin: 0;
+    }
+
+    /* Bigger portrait-shaped container */
+    .container {
+      width: 800px;
+      height: 900px;
+      margin: 10px auto;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      background-image: url('border.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow-y: auto;
+      color: #070707;
+      font-weight: bold;
+      font-family: 'times new roman', serif;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-family: 'Algerian', serif;
+    }
+
+    h1 {
+      animation: zoomIn 1s ease forwards;
+      transform-origin: center;
+      opacity: 0; /* Start hidden until animation */
+    }
+
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Family member images inside container */
+    .family-images img {
+      width: 200px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 8px;
+    }
+
+    /* Navigation menu container */
+    .nav-container {
+      width: 70%;
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #D3D3D3;
+      border-radius: 10px;
+      padding: 1px 0;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    table.nav-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table.nav-table td {
+      text-align: center;
+      padding: 8px 0;
+    }
+
+    .footer-menu a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 0 10px;
+      display: inline-block;
+    }
+
+    .footer-menu a:hover {
+      color: #3498db;
+    }
+
+    /* Bounce animation */
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+      40% { transform: translateY(-15px); }
+      60% { transform: translateY(-7px); }
+    }
+
+    .footer-menu {
+      font-size: 20px;
+      animation: bounce 0s infinite;
+    }
+  </style>
+</head>
+<body>
+
+   <!-- HEADER SECTION -->
+  <table width="60%" align="center">
+    <tr>
+      <td colspan="2" align="center" bgcolor="#D3D3D3">
+        <br>
+        <div class="footer-menu">
+          <a href="home.html">Home</a> |
+          <a href="about me.html">About Me</a> |
+          <a href="personal detail.html">Personal Details</a> |
+          <a href="curriculum.html">Curriculum</a> |
+          <a href="achievement.html">Achievement</a> |
+          <a href="portfolio.html">Portfolio</a> |
+          <a href="family.html">Family</a> |
+          <a href="friend.html">Friends</a> |
+          <a href="contact us.html">Contact Us</a>
+          <br><br>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <!-- Main Content Container -->
+  <div class="container">
+    <h1>Family</h1>
+
+    <p>Father: Johar B.Alwi</p> 
+    <p>Mother: Che'Pah Bt. Mohd</p>
+    <p>Brother-in-law: Khatib B. Masri</p>
+    <p>1st Sister: Nur Auni B. Johar</p>
+    <p>1st Brother: Muhammad Asraff B. Johar</p>
+    <p>Sister-in-law: Nur Hidayah B. Zainuddin</p>
+    <p>2nd Brother: Muhammad Hanafi B. Johar</p>
+    <p>3rd Brother: Muhammad Hairy B. Johar</p>
+    <p>2nd Sister: Nur Hanani B. Johar</p>
+    <p>Me: Nur Hanina B. Johar</p>
+    <p>Nephew: Muhammad Kamil Fuad B. Khatib</p>
+    <p>Niece: Nur Kamaliyah Fatiha Bt. Khatib</p>
+    <p>Nephew: Muhammad Qarizh B. Asraff</p>
+
+    <div class="family-images">
+      <img src="parents 1.jpg" alt="Parents" />
+      <img src="parents 2.jpg" alt="Parents" />
+      <img src="parents 3.jpg" alt="Parents" />
+      <img src="parents 4.jpg" alt="Parents" />
+<p>My Parents</p>
+
+      <br>
+
+      <img src="khatib's fam.jpg" alt="Khatib's Family" />
+      <img src="khatib's fam 3.jpg" alt="Khatib's Family" />
+<p>Khatib's Family</p>
+      <br>
+
+      <img src="asraff's fam 2.jpg" alt="Asraff's Family" />
+      <img src="asraff's fam.jpg" alt="Asraff's Family" />
+<p>Asraff's Family</p>
+      <br>
+
+      <img src="single.jpg" alt="Unmarried" />
+      <img src="single 2.jpg" alt="Unmarried" />
+      <img src="us.jpg" alt="Unmarried" />
+      <img src="us 2.jpg" alt="Unmarried" />
+      <img src="us 3.jpg" alt="Unmarried" />
+      <img src="us 4.jpg" alt="Unmarried" />
+      <img src="me.jpg" alt="Unmarried" />
+      <img src="me 2.jpg" alt="Unmarried" />
+<p>Single but not available </p>
+      <br>
+      <br>
+
+      <img src="my fam 3.jpg" alt="Family" />
+      <img src="my fam 2.jpg" alt="Family" />
+      <img src="my fam 3.jpg" alt="Family" />
+      <p>Families</p>
+    </div>
+  </div>
+
+  <br>
+
+  <h1 style="color: white;">Family is everything!</h1>
+<p style="color: white;">
+  “Having somewhere to go is home. Having someone to love is family. <br> And having both is a blessing.”
+</p>
+
+
+  <!-- FOOTER SECTION -->
+  <a href="index.html" style="display: inline-block; background: rgb(235, 231, 231); color: rgb(15, 15, 15); padding: 10px 15px; margin: 5px; text-decoration: none;">Back to Homepage</a>
+  <a href="javascript:history.back()" style="display: inline-block; background: rgb(245, 243, 243); color: rgb(2, 2, 2); padding: 10px 15px; margin: 5px; text-decoration: none;">Back to Previous Page</a>
+</div>
+
+
+  <footer style="background-color: #333; color: white; text-align: center; padding: 15px; margin-top: 40px;">
+    &copy; 2025 Nur Hanina Johar. All rights reserved.
+  </footer>
+
+</body>
+</html>

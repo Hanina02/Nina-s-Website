@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  
+  <style>
+    body {
+      background-image: url('wallp.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: black;
+      padding-top: 70px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background-image: url('border.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: black;
+    }
+
+    h1 {
+      font-family: Algerian, serif;
+      font-size: 3rem;
+      margin-bottom: 30px;
+      animation: zoomIn 1s ease forwards;
+      color: #1d1f20;
+      cent
+    }
+
+    @keyframes zoomIn {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    form label {
+      display: block;
+      text-align: left;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      resize: vertical;
+    }
+
+    form input[type="submit"] {
+      background-color: #0f0f0f;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #bd1a1a;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    ul.social-links {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+      margin-bottom: 50px;
+    }
+
+    ul.social-links li {
+      display: inline-flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    ul.social-links a {
+      color: #000;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    ul.social-links a:hover {
+      color: #3498db;
+    }
+
+    /* Footer menu */
+    .footer-menu {
+      font-size: 20px;
+      text-align: center;
+      padding: 10px 0;
+      background-color: #d3d3d3;
+      margin-bottom: 10px;
+    }
+
+    .footer-menu a {
+      text-decoration: none;
+      color: black;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    .footer-menu a:hover {
+      color: #3498db;
+    }
+
+    /* Footer buttons */
+    .footer-buttons {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .footer-buttons a {
+      display: inline-block;
+      background: rgb(22, 22, 22);
+      color: rgb(247, 240, 240);
+      padding: 10px 15px;
+      margin: 5px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .footer-buttons a:nth-child(2) {
+      background: rgb(10, 10, 10);
+    }
+
+    .footer-buttons a:hover {
+      background-color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <table width="52%" align="center">
+    <tr>
+      <td colspan="2" align="center" bgcolor="#D3D3D3">
+        <div class="footer-menu">
+          <br>
+          <a href="home.html">Home</a> |
+          <a href="about me.html">About Me</a> |
+          <a href="personal detail.html">Personal Details</a> |
+          <a href="curriculum.html">Curriculum</a> |
+          <a href="achievement.html">Achievement</a> |
+          <a href="portfolio.html">Portfolio</a> |
+          <a href="family.html">Family</a> |
+          <a href="friend.html">Friends</a> |
+          <a href="contact us.html">Contact Us</a>
+          <br><br>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <div class="container">
+    <h1 style="text-align: center;">Contact Us</h1>
+
+<form action="https://formsubmit.co/2022615766@student.uitm.edu.my" method="POST" style="max-width: 400px; margin: 0 auto; text-align: center;">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required /><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required /><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+  <input type="submit" value="Send Message" />
+</form>
+
+
+   <!-- Include Font Awesome in the <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<h2 style="text-align: center;">Follow   Us   On   Social   Media</h2>
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; font-size: 20px;">
+  <div>
+    <p><i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/nurhanina.johar" target="_blank">Facebook</a></p>
+    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/qr/BDNW37SYFQW2K1" target="_blank">WhatsApp</a></p>
+  </div>
+  <div>
+    <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/nrhnnaa_" target="_blank">Instagram</a></p>
+    <p><i class="fab fa-tiktok"></i> <a href="https://www.tiktok.com/@nrhnnaa_11" target="_blank">TikTok</a></p>
+  </div>
+</div>
+
+  </div>
+
+  <!-- Footer Buttons -->
+   <div><a href="index.html" style="display: inline-block; background: rgb(235, 231, 231); color: rgb(15, 15, 15); padding: 10px 15px; margin: 5px; text-decoration: none;">Back to Homepage</a>
+  <a href="javascript:history.back()" style="display: inline-block; background: rgb(245, 243, 243); color: rgb(2, 2, 2); padding: 10px 15px; margin: 5px; text-decoration: none;">Back to Previous Page</a>
+</div>
+
+  <footer>
+    &copy; 2025 Nur Hanina Johar. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
+
+
